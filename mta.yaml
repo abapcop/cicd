@@ -1,0 +1,12 @@
+_schema-version: "3.3"
+ID: helloworld
+version: 1.0.0
+
+modules:
+  - name: helloworld
+    type: nodejs
+    path: .
+    parameters:
+      memory: 256M
+    build-parameters:
+      builder: npm
